@@ -5,5 +5,6 @@
 require 'pry'
 class EmailAddressParser
   attr_accessor: email_addresses
+  email_addresses.new.unique
 binding.pry
 end
