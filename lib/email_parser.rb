@@ -4,5 +4,6 @@
 # or whitespace (' ').''
 require 'pry'
 class EmailAddressParser
+  attr_accessor: email_addresses
 binding.pry
 end
